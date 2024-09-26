@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.left-pane {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.right-pane {
+  width: 70%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.2s;
+}
+
+.post-item:hover {
+  background-color: #f0f0f0;
+}
+
+.post-item.selected {
+  background-color: #d3d3d3;
+}
+
+.post-detail {
+  padding: 10px;
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
